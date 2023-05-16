@@ -1,0 +1,258 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1.2em;
+	background-color: #fff;
+	color: #aaa;
+}
+p{
+	padding: 0 0 20px 0;
+	line-height: 1.7em;
+}
+input[type="text"], input[type="password"], input[type="search"]{
+	color: #5d5d5d;
+	width: 60%;
+	padding: 8px;
+	margin: 1px;
+}
+input, textarea{
+	outline: none;
+	border: none;
+	border: solid 1px #f2f2f2;
+}
+h1, h2{
+	font: normal 170% 'century gothic', arial;
+	margin: 0 0 15 px 0;
+	padding: 15px 0 15px 0;
+}
+h2{
+	font-size: 140%;
+}
+h3{
+	color: #000;
+	font: normal 100% 'century gothic', arial;
+	margin: 2px 0 22px 17px;
+}
+a, a:hover{
+	outline: none;
+	text-decoration: none;
+	color: #aeb002;
+}
+ul{
+	margin: 2px 0 22px 17px;
+}
+ul li{
+	margin: 0 0 3px 0;
+	padding: 0 0 3px 3px;
+	line-height: 1.5em;
+}
+embed{
+	height: 750px;
+	width: 500px;
+	float: right;
+	margin: 10px 10px 10px 10px;
+}
+ul.menu li{
+	position: relative;
+}
+ul.menu, ul.inside{
+	padding: 0;
+    list-style-type: none;
+}
+ul.inside {
+    left: -9999px;
+    position: absolute;
+}
+ul.menu li.top {
+    margin: 0 1px 0 0;
+    display: inline;
+}
+ul.ddropdownn li.ddropdownn-top a {
+    display: block;
+}
+ul.menu li.top:hover .inside {
+    left: 0;
+    display: block;
+}
+ul.menu .inside {
+	background: darkslateblue;
+}
+ul.menu .inside a:hover {
+	background: darkslateblue;
+}
+.header{
+	background-color: darkslateblue;
+	height: 150px;
+	font-size: 0.8em;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+.main, .logo, .menubar, .site_content, .footer{
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo{
+	width: 880px;
+	padding-bottom: 40px;
+}
+.logo h1, .logo h2{
+	font: normal 300% 'century gothic', arial, sans-serif;
+	margin: 0 0 0 9px;
+}
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover{
+	padding: 22px 0 0 0;
+	color: #fff;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+}
+.logo_text h2{
+	font-size: 1.9em;
+	padding: 4px 0 0 0;
+	color: #999;
+}
+.menubar{
+	width: 900px;
+	height: 46px;
+}
+ul.menu{
+	float: right;
+}
+ul.menu li{
+	float: left;
+	padding: 0 0 0 9px;
+	list-style: none;
+	margin: 1px 2px 0 0;
+}
+ul.menu li a{
+	font: normal 100% 'trebuchet ms', sans-serif;
+	display: block;
+	height: 20px;
+	padding: 1px 35px 1px 28px;
+	color: #fff;
+	text-decoration: none;
+}
+ul.menu li.selected a{
+	color: #aeb002;
+}
+ul.menu li a:hover{
+	color: #e4ec04;
+}
+.site_content{
+	width: 880px;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+	background-color: white;
+}
+.sidebar_container{
+	float: right;
+	width: 225px;
+}
+.sidebar{
+	float: right;
+	width: 222px;
+	padding: 5%;
+	margin: 0 0 16px 0;
+	border: solid 1px #f2f2f2;
+	border-radius: 5px;
+	background-color: darkslateblue;
+}
+.sidebar h2{
+	color: white;
+}
+.btn{
+	padding: 8px;
+	background-color: white;
+	cursor: pointer;
+}
+.passreg_text{
+	font-size: 0.7em;
+	margin-top: 3%;
+	margin-left: 2%;
+}
+.sidebar ul{
+	margin: 0;
+}
+.sidebar ul li{
+	list-style-type: none;
+	margin: 0 0 0 0;
+}
+.sidebar .rating_sidebar{
+	float: right;
+}
+.content{
+	text-align: left;
+	width: 620px;
+	padding: 0 0 0 5px;
+	float: left;
+}
+.content a{
+	text-decoration: none;
+}
+.content h1, h2{
+	color: darkslateblue;
+}
+.content ul li{
+	color: #000;
+	font: normal 100% 'century gothic', arial;
+	margin: 2px 0 22px 47px;
+}
+.value{
+	font-size: 1em;
+	color: #49945a;
+	margin-right: 3%;
+}
+.create{
+	margin-bottom: 4%;
+}
+.create input[type="text"], textarea{
+	border: solid 1px #c3c3c3;
+	margin-bottom: 2%;
+}
+.create input[type="text"]{
+	width: 97%;
+}
+.create textarea{
+	width: 618px;
+	height: 200px;
+}
+.create input[type="submit"]{
+	background-color: #7268ad;
+	color: white;
+}
+.image-scale {
+  display: inline-block; 
+  overflow: hidden; /* Скрываем всё за контуром */
+}
+.image-scale img {
+	height: 250px;
+  transition: 1s; /* Время эффекта */
+  display: block; 
+}
+.image-scale img:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	padding: 28px 0 5px 0;
+	text-align: center;
+	background-color: darkslateblue;
+	color: #a8aa94;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+.footer a{
+	color: #a8aa94;
+	text-decoration: none;
+}
+.footer a:hover{
+	color: white;
+	text-decoration: none;
+}
+.footer p{
+	padding: 0 0 10px 0;
+}
